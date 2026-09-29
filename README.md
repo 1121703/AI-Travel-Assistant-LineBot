@@ -3,7 +3,6 @@
 > **微型期末專題**  
 > 整合 Generative AI、多語系語音辨識/合成、情緒與偏好分析以及周邊景點地圖搜尋的智慧旅遊伴侶 LINE Bot。  
 > 📊 **簡報連結**：[Canva 專題簡報](https://canva.link/gpha9idug77pclv)
-
 > 📊 **海報連結**：[Canva 專題海報](https://canva.link/myrizqyqz37sk9z)
 
 ---
