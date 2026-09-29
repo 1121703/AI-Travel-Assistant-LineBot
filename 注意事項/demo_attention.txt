@@ -1,0 +1,1 @@
+config.ini的deploy URL 要改成ngrok的https://.....app 的那個

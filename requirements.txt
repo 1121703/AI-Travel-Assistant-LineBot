@@ -1,0 +1,6 @@
+azure-cognitiveservices-speech
+requests
+flask
+line-bot-sdk
+google-generativeai
+pillow

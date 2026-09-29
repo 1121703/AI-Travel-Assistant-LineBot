@@ -1,0 +1,119 @@
+{
+  "type": "bubble",
+  "size": "mega",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "🌍 選擇翻譯語言",
+        "weight": "bold",
+        "size": "xl",
+        "color": "#333333"
+      },
+      {
+        "type": "text",
+        "text": "請選擇目標語言",
+        "size": "sm",
+        "color": "#888888",
+        "margin": "md"
+      }
+    ]
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "md",
+    "contents": [
+      {
+        "type": "button",
+        "style": "primary",
+        "color": "#607D8B",
+        "height": "sm",
+        "action": {
+          "type": "postback",
+          "label": "🇯🇵 日文",
+          "data": "lang=ja"
+        }
+      },
+      {
+        "type": "button",
+        "style": "primary",
+        "color": "#607D8B",
+        "height": "sm",
+        "action": {
+          "type": "postback",
+          "label": "🇺🇸 英文",
+          "data": "lang=en"
+        }
+      },
+      {
+        "type": "button",
+        "style": "primary",
+        "color": "#607D8B",
+        "height": "sm",
+        "action": {
+          "type": "postback",
+          "label": "🇰🇷 韓文",
+          "data": "lang=ko"
+        }
+      },
+      {
+        "type": "button",
+        "style": "primary",
+        "color": "#607D8B",
+        "height": "sm",
+        "action": {
+          "type": "postback",
+          "label": "🇫🇷 法文",
+          "data": "lang=fr"
+        }
+      },
+      {
+        "type": "button",
+        "style": "primary",
+        "color": "#607D8B",
+        "height": "sm",
+        "action": {
+          "type": "postback",
+          "label": "🇪🇸 西班牙文",
+          "data": "lang=es"
+        }
+      },
+      {
+        "type": "button",
+        "style": "primary",
+        "color": "#607D8B",
+        "height": "sm",
+        "action": {
+          "type": "postback",
+          "label": "🇹🇭 泰文",
+          "data": "lang=th"
+        }
+      },
+      {
+        "type": "button",
+        "style": "primary",
+        "color": "#607D8B",
+        "height": "sm",
+        "action": {
+          "type": "postback",
+          "label": "🇹🇼 中文（台灣）",
+          "data": "lang=zh-Hant"
+        }
+      },
+      {
+        "type": "button",
+        "style": "primary",
+        "color": "#607D8B",
+        "height": "sm",
+        "action": {
+          "type": "postback",
+          "label": "🇨🇳 中文（簡體）",
+          "data": "lang=zh-Hans"
+        }
+      }
+    ]
+  }
+}

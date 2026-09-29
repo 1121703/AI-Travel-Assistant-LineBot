@@ -1,0 +1,71 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "md",
+    "contents": [
+      {
+        "type": "text",
+        "text": "請選擇功能：",
+        "weight": "bold",
+        "size": "md"
+      },
+      {
+        "type": "separator",
+        "margin": "md"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",   
+        "spacing": "sm",
+        "contents": [
+            {
+                "type": "button",
+                "style": "primary",
+                "height": "sm",
+                "color": "#607D8B",
+                "action": {
+                    "type": "postback",
+                    "label": "行程規劃",
+                    "data": "action=func1"
+                }
+            },
+            {
+                "type": "button",
+                "style": "primary",
+                "height": "sm",
+                "color": "#607D8B",
+                "action": {
+                    "type": "postback",
+                    "label": "旅遊問答",
+                    "data": "action=func2"
+                }
+            },
+            {
+                "type": "button",
+                "style": "primary",
+                "height": "sm",
+                "color": "#607D8B",
+                "action": {
+                    "type": "postback",
+                    "label": "翻譯及語音",
+                    "data": "action=func3"
+                }
+            },
+            {
+                "type": "button",
+                "style": "primary",
+                "height": "sm",
+                "color": "#607D8B",
+                "action": {
+                    "type": "postback",
+                    "label": "附近景點查詢",
+                    "data": "action=func4"
+                }
+            }
+        ] 
+      }
+    ]
+  }
+}
